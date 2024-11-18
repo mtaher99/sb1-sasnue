@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  font-family: 'Noto Sans', 'Noto Sans Arabic', 'Noto Sans Urdu', 'Noto Sans Devanagari', 'Noto Sans Bengali', sans-serif;
+}
+
+[lang="ar"] {
+  font-family: 'Noto Sans Arabic', sans-serif;
+}
+
+[lang="ur"] {
+  font-family: 'Noto Sans Urdu', sans-serif;
+}
+
+[lang="hi"] {
+  font-family: 'Noto Sans Devanagari', sans-serif;
+}
+
+[lang="bn"] {
+  font-family: 'Noto Sans Bengali', sans-serif;
+}
+
+[lang="en"], [lang="fil"] {
+  font-family: 'Noto Sans', sans-serif;
+}
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.ltr {
+  direction: ltr;
+}
+
+[dir="rtl"] input[type="number"],
+[dir="rtl"] select {
+  text-align: left;
+}
